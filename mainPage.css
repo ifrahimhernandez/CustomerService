@@ -1,0 +1,95 @@
+.nav-center {  
+  text-align: center;
+  ul.nav {
+    display: inline-block;
+    li {
+      display: inline
+      a {
+        float: left
+      }
+    }
+  }
+}
+
+div .panel-transparent {
+  background: none;
+  border-color: 7px solid black;
+}
+
+div .panel-transparent .panel-heading{
+       background: rgba(248,248,248, 0.9);
+         border-color: 7px solid black;
+}
+
+div .panel-transparent .panel-body{
+       background: rgba(248,248,248, 0.9);
+         border-color: 7px solid black;
+       }
+
+.addEmpFields{
+  margin-top: 10px;
+  width: 95%;
+  display: inline-block;
+}
+.addEmpBtn{
+  margin-top: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#pills
+{
+  width: 85%;
+  font-size: 2.0vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+#pills a
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+
+#pills a:hover
+{
+  background-color: #00ced1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+  background: #ffa500;
+}
+
+ul li{
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  font-weight: bold;
+  background: #FA520F;
+  border-bottom: 1px solid white;
+}
+
+@media screen and (max-width: 991px){
+/*  .menuDiv{
+    position: fixed;
+  }*/
+  #pills{
+      /*font-size: 1.5em;*/
+      width: 16.66%;
+      /*display: none;*/
+      }
+  #pills a{
+    /*padding: 0;*/
+    /*text-align: left;*/
+    /*color: white;*/
+  }
+  #menuToggle{
+    /*display: none;*/
+  }
+  #btnDSales{
+    width: 50%;
+  }
+}

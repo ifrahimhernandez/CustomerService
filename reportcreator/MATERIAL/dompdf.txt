@@ -1,0 +1,8 @@
+::: DOMPDF :::
+
+$codigoHTML=utf8_encode($codigoHTML);
+$dompdf=new DOMPDF();
+$dompdf->load_html($codigoHTML);
+ini_set("memory_limit","128M");
+$dompdf->render();
+$dompdf->stream("Reporte_tabla_usuarios.pdf");
